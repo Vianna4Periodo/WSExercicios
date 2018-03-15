@@ -42,7 +42,4 @@ namespace WSExercicios
         }
     }
 }
-//C para F: fórmula: F = (C × 1,8) + 32
-//F para C: C = (F − 32) / 1, 8
-//C para Kelvin: K = C + 273
-//Kelvin para C = C = K – 273
+
