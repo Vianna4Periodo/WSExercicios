@@ -32,7 +32,7 @@ namespace WSExercicios
         [WebMethod]
         public double Forca(double massa, int aceleracao)
         {
-            return Distancia / tempo;
+            return massa*aceleracao;
         }
     }
 }

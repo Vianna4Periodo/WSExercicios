@@ -76,17 +76,32 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="WSBhaskara.asmx" />
     <Content Include="WSBancario.asmx" />
     <Content Include="WSCalculadora.asmx" />
+    <Content Include="WSFisica.asmx" />
+    <Content Include="WSTemperaturas.asmx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WSBhaskara.asmx.cs">
+      <DependentUpon>WSBhaskara.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="WSBancario.asmx.cs">
       <DependentUpon>WSBancario.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="WSCalculadora.asmx.cs">
       <DependentUpon>WSCalculadora.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WSFisica.asmx.cs">
+      <DependentUpon>WSFisica.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WSTemperaturas.asmx.cs">
+      <DependentUpon>WSTemperaturas.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
